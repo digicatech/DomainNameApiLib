@@ -1,5 +1,6 @@
 <?php
-use digicatech\DomainNameApiLib;
+use digicatech\DomainNameApiLib\DomainNameApiLib;
+
 /**
  * Created by PhpStorm.
  * User: bunyaminakcay
