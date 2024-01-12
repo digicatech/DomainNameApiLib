@@ -7,6 +7,10 @@
 
 ## Kullanım
 
+```php
+composer require digicatech/domain-name-api-lib
+```
+
 Dosyaları indirin [examples](examples) klasörünün içindeki örnekleri inceleyin.
 
 ```php
