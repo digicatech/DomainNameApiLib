@@ -1,4 +1,5 @@
 <?php
+use digicatech\DomainNameApiLib;
 /**
  * Created by PhpStorm.
  * User: bunyaminakcay
@@ -6,12 +7,12 @@
  * 4.03.2023 15:39
  * Bünyamin AKÇAY <bunyamin@bunyam.in>
  */
-require_once __DIR__.'/../src/DomainNameAPI.php';
+require_once __DIR__.'/../src/DomainNameApiLib.php';
 
 $username = 'test1.dna@apiname.com';
 $password = 'FsUvpJMzQ69scpqE';
 
-$dna = new DomainNameApiLib\DomainNameAPI($username,$password);
+$dna = new DomainNameApiLib($username,$password);
 
 /**
  * Transfer Domain

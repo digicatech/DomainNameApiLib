@@ -8,8 +8,8 @@
  */
 
 /**
- * Class DomainNameAPI
- * @package DomainNameApiLib
+ * Class DomainNameApiLib
+ * @package digicatech\DomainNameApiLib
  * @version 2.0.12
  */
 
@@ -17,9 +17,9 @@
  * This library was written really long before the PSR-7 standards and was not structured according to most coding disciplines. It has only optimized from legacy version.
  * The code inherited from the 1st version has been revamped to create the 2nd version, and a complete overhaul is planned for the 3rd version.
  */
-namespace DomainNameApiLib;
+namespace digicatech;
 
-class DomainNameAPI {
+class DomainNameApiLib {
 
     private $_USERDATA_USERNAME = "ownername";
     private $_USERDATA_PASSWORD = "ownerpass";
