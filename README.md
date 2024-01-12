@@ -11,14 +11,21 @@
 composer require digicatech/domain-name-api-lib
 ```
 
-Dosyaları indirin [examples](examples) klasörünün içindeki örnekleri inceleyin.
+```php
+use digicatech\DomainNameApiLib\DomainNameApiLib;
+
+$dna =  new  DomainNameApiLib('ownername' , 'ownerpass' , true);
+```
+
+veya
 
 ```php
 require_once __DIR__.'/src/DomainNameAPI.php';
 
-$dna = new \DomainNameApiLib\DomainNameAPI($username,$password);
+$dna = new  \digicatech\DomainNameApiLib\DomainNameApiLib('ownername' , 'ownerpass' , true);
 ```
 
+Dosyaları indirin [examples](examples) klasörünün içindeki örnekleri inceleyebilirsiniz.
 
 
 Domain listesi için
