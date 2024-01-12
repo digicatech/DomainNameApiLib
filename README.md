@@ -10,9 +10,9 @@
 Dosyaları indirin [examples](examples) klasörünün içindeki örnekleri inceleyin.
 
 ```php
-require_once __DIR__.'/src/DomainNameAPI_PHPLibrary.php';
+require_once __DIR__.'/src/DomainNameAPI.php';
 
-$dna = new \DomainNameApi\DomainNameAPI_PHPLibrary('username','password');
+$dna = new \DomainNameApiLib\DomainNameAPI($username,$password);
 ```
 
 
